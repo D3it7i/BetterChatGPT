@@ -35,7 +35,7 @@ const ApiPopup = () => {
 
   return isModalOpen ? (
     <PopupModal
-      title='Setup your API key'
+      title='请输入您的个人密钥'
       handleConfirm={handleConfirm}
       setIsModalOpen={setIsModalOpen}
       cancelButton={false}
@@ -52,35 +52,6 @@ const ApiPopup = () => {
             onChange={(e) => {
               _setApiKey(e.target.value);
             }}
-          />
-        </div>
-
-        <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm mt-4'>
-          <Trans
-            i18nKey='apiKey.howTo'
-            ns='api'
-            components={[
-              <a
-                href='https://platform.openai.com/account/api-keys'
-                className='link'
-                target='_blank'
-              />,
-            ]}
-          />
-        </div>
-        <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm mt-4'>
-          <Trans
-            i18nKey='advancedConfig'
-            ns='api'
-            components={[
-              <a
-                className='link cursor-pointer'
-                onClick={() => {
-                  setIsModalOpen(false);
-                  document.getElementById('api-menu')?.click();
-                }}
-              />,
-            ]}
           />
         </div>
 

@@ -1,5 +1,5 @@
 {
-  "securityMessage": "我们高度优先考虑您的 API 密钥的安全，并非常小心地处理它。您的密钥将专门存储在您的浏览器中，并且永远不会与任何第三方实体共享。它仅用于访问 OpenAI API 的预期用途，而不是用于任何其他未经授权的用途。",
+  "securityMessage": "向其他人分享您的密匙, 讨论过分的仇恨, 性, 暴力, 自残行为 都将导致封禁, 我们高度优先考虑您的 API 密钥的安全，并非常小心地处理它。您的密钥将专门存储在您的浏览器中，并且永远不会与任何第三方实体共享。",
   "apiEndpoint": {
     "inputLabel": "API 端点",
     "description": "选用非官方 API 端点时，它会作为代理运作。代理作用是在您的设备和目标服务器（在本例中为 OpenAI API）之间充当中介。通过这样做，您能够在被限制的地区访问 OpenAI API。",
@@ -7,7 +7,7 @@
   },
   "apiKey": {
     "howTo": "在<0>此处</0>获取您的个人 API 密钥。",
-    "inputLabel": "API 密钥"
+    "inputLabel": "个人密钥"
   },
   "customEndpoint": "使用自定义 API 端点",
   "advancedConfig": "在<0>此处</0>查看高级 API 设置",
