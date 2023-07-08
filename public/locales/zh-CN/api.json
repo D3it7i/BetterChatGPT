@@ -9,7 +9,7 @@
     "howTo": "在<0>此处</0>获取您的个人 API 密钥。",
     "inputLabel": "个人密钥"
   },
-  "customEndpoint": "使用自定义 API 端点",
+  "customEndpoint": "使用自定义 API 端点 (仅限专业人员)",
   "advancedConfig": "在<0>此处</0>查看高级 API 设置",
   "noApiKeyWarning": "缺少 API key，请检查 API 设置。"
 }
