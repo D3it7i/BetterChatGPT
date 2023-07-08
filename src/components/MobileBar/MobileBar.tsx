@@ -14,7 +14,7 @@ const MobileBar = () => {
     state.currentChatIndex >= 0 &&
     state.currentChatIndex < state.chats.length
       ? state.chats[state.currentChatIndex].title
-      : 'New Chat'
+      : '新聊天'
   );
 
   const addChat = useAddChat();
