@@ -26,7 +26,7 @@ const StopGeneratingButton = () => {
           >
             <rect x='3' y='3' width='18' height='18' rx='2' ry='2'></rect>
           </svg>
-          Stop generating
+          停止生成
         </div>
       </button>
     </div>
