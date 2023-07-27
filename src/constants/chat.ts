@@ -62,6 +62,18 @@ export const modelCost = {
     prompt: { price: 0.03, unit: 1000 },
     completion: { price: 0.06, unit: 1000 },
   },
+  'gpt-3.5-turbo': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 },
+  },
+  'gpt-3.5-turbo-16k': {
+    prompt: { price: 0.003, unit: 1000 },
+    completion: { price: 0.004, unit: 1000 },
+  },
+  'gpt-4': {
+    prompt: { price: 0.03, unit: 1000 },
+    completion: { price: 0.06, unit: 1000 },
+  },
 };
 
 export const defaultUserMaxToken = 4000;
