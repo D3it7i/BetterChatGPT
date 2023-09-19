@@ -52,6 +52,8 @@ export interface Folder {
 export type ModelOptions = 
 'azure:gpt-35-turbo'|
 'azure:gpt-35-turbo-16k'|
+'azure:gpt-4'|
+'azure:gpt-4-32k'|
 'kamiya:openai:gpt-3.5-turbo'|
 'kamiya:openai:gpt-3.5-turbo-16k'|
 'kamiya:openai:gpt-3.5-enhanced-for-role-play'|

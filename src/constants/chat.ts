@@ -20,6 +20,8 @@ Respond using Markdown.`;
 export const modelOptions: ModelOptions[] = [
   'azure:gpt-35-turbo',
   'azure:gpt-35-turbo-16k',
+  'azure:gpt-4',
+  'azure:gpt-4-32k',
   'kamiya:openai:gpt-3.5-turbo',
   'kamiya:openai:gpt-3.5-turbo-16k',
   'kamiya:openai:gpt-3.5-enhanced-for-role-play',
@@ -31,6 +33,8 @@ export const defaultModel = 'azure:gpt-35-turbo';
 export const modelMaxToken = {
   'azure:gpt-35-turbo': 4096,
   'azure:gpt-35-turbo-16k': 16384,
+  'azure:gpt-4': 8192,
+  'azure:gpt-4-32k': 32768,
   'kamiya:openai:gpt-3.5-turbo': 4096,
   'kamiya:openai:gpt-3.5-turbo-16k': 16384,
   'kamiya:openai:gpt-3.5-enhanced-for-role-play': 3072,
@@ -45,6 +49,14 @@ export const modelCost = {
   'azure:gpt-35-turbo-16k': {
     prompt: { price: 0.003, unit: 1000 },
     completion: { price: 0.004, unit: 1000 },
+  },
+  'azure:gpt-4': {
+    prompt: { price: 0.03, unit: 1000 },
+    completion: { price: 0.06, unit: 1000 },
+  },
+  'azure:gpt-4-32k': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
   },
   'kamiya:openai:gpt-3.5-turbo': {
     prompt: { price: 0.0015, unit: 1000 },
